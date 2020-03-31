@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 9, 2019, 11:14:33 AM
+    Author     : Sokeng Paul (AG)
+*/
+/*#AnchorPane{
+    -fx-background-image: url("../Resources/milky-way-2695569_960_720.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}*/
+
+.root {
+    -fx-background-image: url("../resources/water-1330252__340.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 989 688;
+    -fx-background-position: center center;
+}

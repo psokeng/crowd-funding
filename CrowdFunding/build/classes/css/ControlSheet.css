@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 4, 2019, 12:39:47 PM
+    Author     : Sokeng Paul (AG)
+*/
+.button {
+    -fx-background-color: 
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.button:hover{
+    -fx-background-color: 
+        #3c7fb1,
+        linear-gradient(white,skyblue);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.button:pressed {
+    -fx-background-color: 
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+}
+
+.label {
+    -fx-font-size: 20pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-opacity: 0.6;
+    -fx-alignment: center;
+}
